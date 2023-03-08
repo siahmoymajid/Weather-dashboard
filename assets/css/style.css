@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  color: white;
+  background-color: rgb(32, 32, 143);
+  border-bottom: 5px solid #000;
+}
+
+nav h1 {
+  font-size: 3rem;
+}
+
+.row {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#container {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 18%;
+  background: teal;
+  color: white;
+  border: 2px solid #000;
+  border-radius: 8px;
+
+}
+
+div#current {
+  border: 1px solid blue;
+  padding: 5px;
+  text-align: center;
+}
+

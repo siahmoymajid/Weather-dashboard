@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="container">
+    <nav>
+      <H1>Weather Dashboard </H1>
+    </nav>
+
+    <div class="row">
+      <aside>
+        <h3>Search for a City:</h3>
+        <input type="text" placeholder="San Diego">
+        <button id="search">Search</button>
+        <hr>
+        
+      </aside>
+      <div id="container">
+        <div id="current"></div>
+        <div id="forecastDiv">
+          <h3>5-Day Forecast</h3>
+          <div id="forecast"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
