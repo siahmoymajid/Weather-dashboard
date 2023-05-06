@@ -6,10 +6,10 @@
 -The future weather condition shows a 5 day forecast
 
 ## Images
+![weather](assets/images/weather.PNG)
 
-![weather image](https://user-images.githubusercontent.com/122416542/223629267-cc9b67bd-ead8-4338-ad45-b6d965c15ca0.PNG)
 
-## Note:
+## Note
 
 worked with a tutor.
 

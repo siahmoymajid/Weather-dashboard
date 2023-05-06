@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background: transparent url('/assets/images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 nav {
@@ -7,7 +9,6 @@ nav {
   margin: 0;
   padding: 5px;
   color: white;
-  background-color: rgb(32, 32, 143);
   border-bottom: 5px solid #000;
 }
 
@@ -40,18 +41,4 @@ aside {
   justify-content: space-between;
 }
 
-.card {
-  width: 18%;
-  background: teal;
-  color: white;
-  border: 2px solid #000;
-  border-radius: 8px;
-
-}
-
-div#current {
-  border: 1px solid blue;
-  padding: 5px;
-  text-align: center;
-}
 
