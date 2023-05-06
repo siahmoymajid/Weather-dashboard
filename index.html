@@ -21,8 +21,20 @@
         <input type="text" placeholder="San Diego">
         <button id="search">Search</button>
         <hr>
-        
+      <!-- append div wi the new city name here on th aside element -->
+      
       </aside>
+<form>
+  <div class="input-group mb-3">
+    <input class="form-control" type="text" id="search-value" />
+    <div class="input-group-append">
+      <button class="btn btn-outline-light" id="search-button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+<ul class="list-group history"></ul> 
       <div id="container">
         <div id="current"></div>
         <div id="forecastDiv">
@@ -33,6 +45,10 @@
     </div>
   </main>
 
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
 
   <script src="./assets/js/config.js"></script>
   <script src="./assets/js/script.js"></script>
